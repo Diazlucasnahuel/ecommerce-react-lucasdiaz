@@ -20,6 +20,7 @@ function NavBar(){
              m: 1,
         },
         }}
+        
         >   <ButtonGroup variant="text" aria-label="text button group">
                 <Button>Home</Button>
                 <Button>Productos</Button>
