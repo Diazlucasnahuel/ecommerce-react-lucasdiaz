@@ -1,0 +1,10 @@
+.home-tittle{
+    text-align: center;
+    margin: 1rem;
+    text-transform: uppercase;
+    color: rgb(64, 136, 194);
+}
+
+.home-tittle h1{
+    margin-bottom: 1rem;
+}

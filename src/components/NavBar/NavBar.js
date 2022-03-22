@@ -1,6 +1,8 @@
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
+import './NavBar.css';
+import CartWidget from '../CartWidget/CartWidget';
 
 
 function NavBar(){
@@ -8,7 +10,7 @@ function NavBar(){
         <header className='main-header'>
 
             <div className='container-logo'>
-                <h1>Logo</h1>
+                <h1>NewTech</h1>
             </div>
         
         <Box className='navbar'
@@ -28,6 +30,8 @@ function NavBar(){
                 <Button>Contacto</Button>
             </ButtonGroup>
         </Box>
+
+        <CartWidget />
 
         </header>
     )
