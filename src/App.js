@@ -1,15 +1,21 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ListProducts from './components/ListProducts/ListProducts';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import HomeTitle from './components/HomeTitle/HomeTitle'
 function App() {
   return (
     <div className="App">
       <NavBar />
 
-      <ItemListContainer />
+      <HomeTitle />
 
-      <ListProducts />
+      <ListProducts>
+      <p>Productos Principales</p>
+      </ListProducts>
+
+      <ListProducts>
+      <p>Productos en Oferta</p>
+      </ListProducts>
     </div>
   );
 }

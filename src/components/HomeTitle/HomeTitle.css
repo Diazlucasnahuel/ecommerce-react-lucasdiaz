@@ -1,10 +1,10 @@
-.home-tittle{
+.home-title{
     text-align: center;
-    margin: 1rem;
+    padding-top: 2rem;
     text-transform: uppercase;
     color: rgb(64, 136, 194);
 }
 
-.home-tittle h1{
+.home-title h1{
     margin-bottom: 1rem;
 }

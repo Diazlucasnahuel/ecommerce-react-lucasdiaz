@@ -1,0 +1,11 @@
+.card-item{
+    float: left;
+    border: 1px solid lightblue;
+    width: 200px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 5px blue;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: center;
+}
