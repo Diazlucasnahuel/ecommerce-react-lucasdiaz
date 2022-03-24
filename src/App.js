@@ -13,9 +13,6 @@ function App() {
       <p>Productos Principales</p>
       </ListProducts>
 
-      <ListProducts>
-      <p>Productos en Oferta</p>
-      </ListProducts>
     </div>
   );
 }
