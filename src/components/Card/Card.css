@@ -1,11 +1,26 @@
-.card-item{
+.card-item img {
+    width: 300px;
+}
+
+.container-card-data {
     float: left;
-    border: 1px solid lightblue;
-    width: 200px;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    box-shadow: 1px 1px 5px blue;
-    border-radius: 5px;
-    padding: 0.5rem;
-    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-card-data h2 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin: 0px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container-card-data p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container-cards .card-item:nth-of-type(1) {
+    margin-left: 0px;
 }

@@ -14,3 +14,7 @@
 .count-container p{
     font-size: 12px;
 }
+
+.add-itemcount button{
+    margin: 5px;
+}

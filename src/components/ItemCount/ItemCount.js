@@ -19,8 +19,9 @@ function ItemCount ({stock, initial}) {
 
     const removeProduct = () =>{
 
+        if (count > initial) {
             setCount(count - 1)
-
+          };
     }
 
     const onAdd = () => {
@@ -28,12 +29,18 @@ function ItemCount ({stock, initial}) {
     }
 
     return(
-        <>  
+        <>
+        {  
+
+            stock < 1
+            ?
+            <h2>Sin Stock</h2>
+            :
         <div className="itemcount-container">
 
             <div className="count-container">
                 <FontAwesomeIcon icon={faCircleMinus} onClick={removeProduct}></FontAwesomeIcon>
-                <p>Productos agregados: {count}</p>
+                <p>Cantidad: {count}</p>
                 <FontAwesomeIcon icon={faCirclePlus} onClick={addProduct}></FontAwesomeIcon>
             </div>
             <div className="add-itemcount">
@@ -43,7 +50,7 @@ function ItemCount ({stock, initial}) {
         </div>
             
             
-            
+        }
         </>
     )
     

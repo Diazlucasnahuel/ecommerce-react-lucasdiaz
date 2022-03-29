@@ -1,14 +1,8 @@
 .container-cards{
-    text-align: center;
-    padding: 2rem;
-}
-
-.container-cards .cards{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    text-align: center;
+    padding: 2rem;
     justify-items: center;
-    padding: 1rem;
-    margin-bottom: 1rem;
 }
