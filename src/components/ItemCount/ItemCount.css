@@ -1,20 +1,19 @@
 .itemcount-container{
+    justify-items: center;
     padding: 10px;
     border: 1px solid rgb(64, 136, 194);
     border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .count-container{
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 1rem;
     display:flex;
     justify-content: space-between;
 }
 
 .count-container p{
-    font-size: 12px;
-}
-
-.add-itemcount button{
-    margin: 5px;
+    font-size: 0.8rem;
 }

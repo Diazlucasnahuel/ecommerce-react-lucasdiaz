@@ -13,9 +13,9 @@ export default function Card({ data }){
             <div className='container-card-data'>
                 <img src={`./${image}`} alt={image} />
                 <h2>{title}</h2>
-                <ItemDetail/>
                 <p>Precio: $ {price}</p>
                 <ItemCount stock={stock} initial={1}/>
+                <ItemDetail/>
             </div>
                 
             

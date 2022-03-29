@@ -2,25 +2,33 @@
     width: 300px;
 }
 
+.card-item{
+    border: 1px solid rgb(64, 136, 194);
+    box-shadow: 1px 5px 15px rgb(64, 136, 194);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
 .container-card-data {
     float: left;
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
+    justify-items: center;
 }
 
 .container-card-data h2 {
-    font-size: 19px;
-    letter-spacing: 2px;
-    margin: 0px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     font-weight: 400;
-    margin-bottom: 10px;
 }
 
 .container-card-data p {
     font-size: 14px;
     font-weight: 300;
+    color: rgb(64, 136, 194);
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
-.container-cards .card-item:nth-of-type(1) {
-    margin-left: 0px;
-}
+
