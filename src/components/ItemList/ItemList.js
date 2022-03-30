@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Card.css'
+import './ItemList.css'
 import ItemCount from '../ItemCount/ItemCount'
 import ItemDetail from '../ItemDetail/ItemDetail'
 
