@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './ItemList.css'
 import ItemCount from '../ItemCount/ItemCount'
-import ItemDetail from '../ItemDetail/ItemDetail'
+import ButtonDetail from '../ButtonDetail/ButtonDetail'
 
 export default function Card({ data }){
     const {image, title, price, stock} = data
@@ -15,7 +15,7 @@ export default function Card({ data }){
                 <h2>{title}</h2>
                 <p>Precio: $ {price}</p>
                 <ItemCount stock={stock} initial={1}/>
-                <ItemDetail/>
+                <ButtonDetail/>
             </div>
                 
             
